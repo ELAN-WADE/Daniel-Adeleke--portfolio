@@ -51,3 +51,11 @@ export const TimeLineData = [
   { year: 2023, text: "Built AI and ML projects" },
   { year: 2024, text: "Explored robotics, semiconductors, Web3" },
 ];
+// Contact info
+export const MobileNumber = "+2348012345678"; // Replace with your actual number
+export const PersonalEmail = "elanwadebrook@gmail.com"; // Replace with your actual email
+
+// Social media URLs
+export const FacebookUrl = "https://www.facebook.com/profile.php?id=100072188305555";
+export const GithubUrl = "https://github.com/ElAN-WADE";
+export const LinkedInUrl = "https://www.linkedin.com/in/yourprofile";

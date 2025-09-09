@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider &&  next dev",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build && next export",
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
-    "export": "SET NODE_OPTIONS=--openssl-legacy-provider && next export"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "axios": "^1.4.0",
@@ -17,5 +16,9 @@
     "react-icons": "^4.2.0",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "react-is": "^18.2.0",
+    "@babel/core": "^7.22.0"
   }
 }
