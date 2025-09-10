@@ -5,7 +5,8 @@ import {
   SlideImage,
   Dots,
   Dot
-} from '../Slider/SliderStyles';
+} from './SliderStyles'; // <-- changed from '../Slider/SliderStyles'
+
 
 const projects = [
   {

@@ -42,10 +42,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started as Pure Water company operator" },
-  { year: 2018, text: "Worked at Unique Bread Bakery" },
-  { year: 2019, text: "Worked at Sound Press" },
-  { year: 2020, text: "Tutorial teacher at Royal World Academy" },
+ 
   { year: 2021, text: "Started studying Mechatronics Engineering,  Campus Director with Millennium Fellowship adovcate of climate action" },
   { year: 2022, text: "Studied Web Design" },
   { year: 2023, text: "Built AI and ML projects" },
