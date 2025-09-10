@@ -63,7 +63,7 @@ function Slider() {
 
   return (
     <SliderContainer>
-      <h2 style={{ textAlign: "center", margin: "24px 0 8px", fontWeight: 700 , color: "#23336eff"}}>
+      <h2 style={{ textAlign: "left", margin: "14px 0 24px", fontWeight: 700 , color: "#da57b0ff" }}>
         Recent Workflow
       </h2>
       <Slide>

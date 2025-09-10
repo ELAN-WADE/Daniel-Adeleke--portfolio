@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 
 const BackgroundAnimation = () => (
   <div>
@@ -362,4 +362,4 @@ const BackgroundAnimation = () => (
   </div>
 );
 
-export default BackgroundAnimation;
+export default BackgroundAnimation; 

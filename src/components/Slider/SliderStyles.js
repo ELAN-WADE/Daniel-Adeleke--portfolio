@@ -1,39 +1,47 @@
 import styled from 'styled-components';
 
 export const SliderContainer = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 900px;
-  margin: 40px auto;
+  margin: 10px auto;
   position: relative;
-  background: #fff;
+  background: #120f1c52;
   box-shadow: 0 8px 32px rgba(0,0,0,0.12);
   border-radius: 16px;
   overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items:left;
 `;
 
 export const Slide = styled.div`
-  width: 1000px;
-  height: 500px;
+  width: 100%;
+  height: 0;
+  padding-top: 50%; /* Maintain 2:1 aspect ratio */
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  transition: all 0.5s ease;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  background: none;
-  transition: background 0.5s;
 `;
 
 export const SlideImage = styled.img`
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   object-fit: cover;
-  border-radius: 0;
-  box-shadow: none;
-  border: none;
+  border-radius: 16px;
 `;
 
 export const Dots = styled.div`
   position: absolute;
-  bottom: 24px;
+  bottom: 16px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -55,23 +63,29 @@ export const Dot = styled.button`
   `}
 `;
 
-// Add this for the header
 export const SliderHeader = styled.h2`
   text-align: center;
-  margin: 24px 0 8px;
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto 16px;
   font-weight: 700;
-  color: #d48139;
+  color: #362c22ff;
   background: #0a0a0a;
-  padding: 12px 0;
+  padding: 8px 0;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.10);
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 5rem;
+
+  @media (max-width: 900px) {
+    font-size: 1.6rem;
+    padding: 10px 0;
+  }
 
   @media (max-width: 600px) {
     font-size: 1.2rem;
     padding: 8px 0;
     border-radius: 6px;
-    margin: 16px 0 6px;
+    margin: 16px auto 12px;
   }
 `;

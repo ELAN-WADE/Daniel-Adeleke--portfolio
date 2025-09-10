@@ -103,8 +103,8 @@ export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.75);
-  padding-right: 16px;
+  color: rgba(240, 235, 235, 0.75);
+  padding-right: 18px;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 12px;

@@ -17,7 +17,7 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle style={{ textAlign:"left" , color: "#da57b0ff"}} >Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world. From
       CMS platform  To Full Stack development , then Machine Learning
